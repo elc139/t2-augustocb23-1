@@ -1,0 +1,4 @@
+callgrind.out.*
+
+dotprod_seq
+dotprod_seq.c
