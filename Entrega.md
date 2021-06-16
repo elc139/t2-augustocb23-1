@@ -6,7 +6,7 @@ ELC139 (Programação Paralela)
 
 ## Parte 1
 
-1. Ao analisar as execuções do programa, pude perceber que os resultados seguiam um certo padrão de acordo os parâmetros. Quando repetia o primeiro parâmetro, o programa gastava praticamente o mesmo tempo realizando as multiplicações. Ao aumentar o número de repetições, o custo do `for` tinha um leve aumento.
+1. Ao analisar as execuções do programa, pude perceber que os resultados seguiam um certo padrão de acordo os parâmetros. Quando alterava o primeiro parâmetro, o programa gastava praticamente o mesmo tempo realizando as multiplicações. Ao aumentar o número de repetições, o custo do `for` tinha um leve aumento.
 
 
 ![3000-90](img/3000-90.png) ![3000-900](img/3000-900.png)
