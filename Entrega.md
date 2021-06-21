@@ -32,37 +32,15 @@ Utilizei os profilers pré-instalados nas IDEs [Rider](https://www.jetbrains.com
 
 Ambas não exigiram nenhuma configuração adicional e são fáceis de encontrar através da interface da IDE.
 
+[Capturas de tela dos profilers](Capturas.md)
+
 #### JetBrains Rider
 
 No menu `Run`, há a opção `Profile '[nome-projeto]' using '[profiler]'`. É possível alterar o profiler pela opção `Switch Profilling Configuration`. Após executar ao menos uma vez, fica visível um botão na barra de ferramentas para executar novamente o profiler, com um menu para alterar a configuração. Os dados gerados ficam salvos e podem ser facilmente acessados.
 
-![Menu do Rider](img/rider-profilling-1.png)
->Opções do menu
-
-![Botão do Rider](img/rider-profilling-2.png)
->Botão na barra de ferramentas
-
-![Lista do Rider](img/rider-profilling-3.png)
->Lista de snapshots gerados
-
-![Resultados do Rider](img/rider-profilling-4.png)
->Resultados do Rider
-
 #### Microsoft Visual Studio
 
 No menu `Depurar`, há a opção `Criador de Perfil de Desempenho...`, onde há várias opções de profilling. Após a execução, os resultados são exibidos junto com gráficos. Ao clicar em um método, uma segunda aba abre com informações detalhadas, com a opção de destacar o caminho crítico da aplicação. Ao contrário do Rider, os resultados _não_ são salvos automaticamente.
-
-![Menu do VS](img/vs-1.png)
->Opções do menu
-
-![Profilers do VS](img/vs-2.png)
->Profilers disponíves
-
-![Resultados do VS](img/vs-3.png)
->Resultados do Visual Studio, com gráficos
-
-![Detalhes de resultados do VS](img/vs-4.png)
->Detalhes da execução, com o caminho crítico destacado
 
 ### Resultados obtidos
 
